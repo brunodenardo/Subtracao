@@ -1,11 +1,16 @@
 {
-  "name": "soma",
+  "name": "subtracao",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "modulos": "github:noo-e/multiplicacao",
+    "soma": "github:gerson-pn/soma"
+  }
 }
